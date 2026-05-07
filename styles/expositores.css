@@ -41,7 +41,6 @@ text-transform: uppercase;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    animate__fadeInDown
 }
 
 .expositor-card:nth-child(odd) {
