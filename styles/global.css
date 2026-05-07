@@ -1,11 +1,11 @@
 @font-face {
     font-family: "textos";
-    src: url(./fonts/TenorSans-Regular.ttf);
+    src: url(/TenorSans-Regular.ttf);
 }
 
 @font-face {
     font-family: "titulos";
-    src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
+    src: url(/Inter-VariableFont_opsz\,wght.ttf);
 }
 
 
