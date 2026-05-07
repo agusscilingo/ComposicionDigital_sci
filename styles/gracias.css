@@ -1,0 +1,13 @@
+.gracias {
+    text-align: center;
+    padding: 50px 5%;
+    font-family: "textos";
+}
+
+.mensaje {
+    color: #a01c4c;
+    font-family: "titulos";
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+

@@ -1,0 +1,68 @@
+.titulo{
+    background-color: #E9DFF0;
+    display: flex;
+}
+
+.titulo-contenido{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+}
+
+.titulo-contenido h1{
+font-family: "titulos";
+font-size: 5rem;
+font-weight: 800;
+color: #a01c4c;
+margin: 0;
+text-transform: uppercase;
+}
+
+.titulo-contenido p{
+    font-family: "textos";
+    font-size: 1rem;
+    color: black;
+    margin-top: 10px;
+    max-width: 800px;
+}
+
+.grilla-expositores{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    padding: 40px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.expositor-card{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animate__fadeInDown
+}
+
+.expositor-card:nth-child(odd) {
+    background-color: #DEADE0; 
+}
+
+.expositor-card:nth-child(even) {
+    background-color: #EDDCF1; 
+}
+
+.expositor-card h3{
+    font-family: "titulos";
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #a01c4c;
+}
+
+.expositor-card p{
+    font-family: "textos";
+    font-size: 1ren;
+    margin: 3px 0;
+    color: black;
+}

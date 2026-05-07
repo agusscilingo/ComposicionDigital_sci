@@ -1,0 +1,221 @@
+.titulo{
+    background-color: #E9DFF0;
+    display: flex;
+}
+
+.titulo-contenido{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+}
+
+.titulo-contenido h1{
+font-family: "titulos";
+font-size: 4rem;
+font-weight: 800;
+color: #a01c4c;
+margin: 0;
+text-transform: uppercase;
+}
+
+.titulo-contenido p{
+    font-family: "textos";
+    font-size: 1rem;
+    color: black;
+    margin-top: 10px;
+    max-width: 800px;
+}
+
+.info-feria{
+    padding: 4rem 5%;
+    background-color: white;
+}
+
+.info-container{
+    display: flex;
+    align-items: center;
+    gap:4 rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info-img{
+    flex:1;
+}
+
+.info-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.info-texto{
+    flex:1;
+    font-family: "textos";
+    line-height: 1.6;
+    color:black;
+    padding: 1rem;
+}
+
+.info-texto p{
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+.info-texto .textodestacado{
+    font-weight: 800;
+    font-family: "titulos";
+    margin: 2rem 0;
+}
+
+.datos-utiles p{
+    margin-bottom: 0.5rem;
+}
+
+.ingresos-gratuitos {
+    max-width: 1000px;
+    padding: 0.5rem 5% 0.5rem 5%;
+    font-family: "textos";
+    line-height: 1.6;
+}
+
+.ingresos-gratuitos h2 {
+    font-family: "titulos";
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.grupo-ingreso {
+    margin-bottom: 2.5rem;
+}
+
+.grupo-ingreso h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.nota-importante {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.valor-entradas {
+    padding: 3rem 5%;
+    background-color: white;
+}
+
+.valor-container {
+    display: flex;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.valor-info h2 {
+    font-family: "titulos";
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.precios {
+    margin-bottom: 1rem;
+    font-family: "textos";
+    font-size: 1.2rem;
+}
+
+.beneficios h3 {
+    font-family: "titulos";
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.beneficios ul {
+    margin-top: 1.5rem;
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.beneficios li {
+    font-family: "textos";
+    margin-bottom: 1rem;
+line-height: 1.4;
+}
+
+.beneficios p{
+    font-family: "textos";
+    font-size: 0.9rem;
+}
+
+.banner {
+    flex: 1;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.como-llegar {
+    padding: 4rem 5%;
+    background-color: white;
+}
+
+.comollegar-container {
+    display: flex;
+    gap: 50px;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: flex-start;
+
+}
+
+.comollegar-info {
+    flex: 1.2;
+    min-width: 300px;
+}
+
+.comollegar-info h2 {
+    font-family: "titulos";
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.comollegar-info h3 {
+    font-family: "titulos";
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.comollegar-info p {
+    font-family: "textos";
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.mapa img{
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+}
+
+.banner-ultimo{
+width: 100%;
+}
+
+.banner-ultimo img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+

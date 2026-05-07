@@ -1,0 +1,167 @@
+#hero{
+    background-image: url(/img/fondoinicio.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-family: "titulos";
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 800;
+}
+
+#hero p{
+font-family: "textos";
+font-size: 1.5rem;
+margin-top: 10px;
+}
+
+.oradoras{
+    background-color: white;
+    text-align: center;
+}
+
+.oradoras h2{
+font-family: "textos";
+font-size: 2.5rem;
+margin-bottom: 3rem;
+margin-top: 0;
+color: black;
+text-align: center;
+width: 100%;
+}
+
+.card-oradoras{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex: 1;
+    max-width: 350px;
+}
+
+.card img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+
+.card-info h3{
+font-family: "textos";
+font-size: 1.5rem;
+font-weight: 400;
+margin: 0;
+}
+
+.card .apellido{
+    font-family: "titulos";
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.invitado{
+background-color: white;
+width: 100vw;
+}
+
+.invitado-titulo{
+    text-align: left;
+    max-width: 1400px;
+    margin:0;
+    padding: 2rem;
+}
+
+.invitado-titulo h2{
+    font-family: "titulos";
+    font-size: 2rem;
+    font-weight: 1200;
+    text-transform: uppercase;
+    color: black;
+    margin: 10px;
+    text-align: left;
+}
+
+.invitado-foto{
+    background-image: url(/img/peru.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.invitado-foto h3{
+    font-family: "titulos";
+    color: black;
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 5%;
+}
+
+.quever{
+    background-color: white;
+    padding: 4rem;
+}
+
+.que-ver h2{
+    font-family: "titulos";
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.bloque-qver{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.ilink{
+    position: relative;
+    flex: 1;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.ilink img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+
+.itext{
+    position:absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.itext{
+    color: white;
+    font-family: "textos";
+    font-size: 1.8rem;
+    font-weight:400;
+    text-align: center;
+}
