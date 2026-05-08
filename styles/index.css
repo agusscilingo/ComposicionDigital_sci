@@ -52,6 +52,15 @@ width: 100%;
 .card{
     flex: 1;
     max-width: 350px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+animation: fadeIn; 
+    animation-duration: 1s;
+transform: scale(1.02);
+    cursor: pointer;
 }
 
 .card img{
@@ -156,6 +165,7 @@ width: 100vw;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+    text-align: center;
 }
 
 .itext{
