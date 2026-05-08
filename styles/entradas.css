@@ -4,7 +4,7 @@
 }
 
 .ticket-titulo{
-    font-family: "textos";
+    font-family: 'Tenor Sans';
     color: #a01c4c;
     font-size: 1.8rem;
     margin-bottom: 4rem;   
@@ -35,7 +35,7 @@
 
 .precio{
     display: block;
-    font-family: "titulos";
+    font-family: "Inter";
     font-size: 1.8rem;
     color: #a01c4c;
     font-weight: 800;
@@ -43,14 +43,14 @@
 }
 
 .dias{
-    font-family: "textos";
+    font-family: "Tenor Sans";
     font-style: italic;
     color: grey;
     margin-bottom: 2rem;
 }
 
 .descripcion{
-    font-family: "textos";
+    font-family: "Tenor Sans";
     font-size: 1rem;
     line-height: 1.4;
     height: 60px;
@@ -62,7 +62,7 @@
     color: white;
     border: none;
     padding: 1rem;
-    font-family: "titulos";
+    font-family: "Inter";
     font-weight: 800;
     font-size: 1.2rem;
     cursor: pointer;
