@@ -41,9 +41,18 @@ text-transform: uppercase;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
-.expositor-card:nth-child(odd) {
+.expositor-card:hover {
+animation: fadeIn; 
+    animation-duration: 1s;
+transform: scale(1.02);
+    cursor: pointer;
+}
+
+.expositor-card {
     background-color: #DEADE0; 
 }
 
