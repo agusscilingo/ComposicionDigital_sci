@@ -1,5 +1,5 @@
 #hero{
-    background-image: url(/img/fondoinicio.jpg);
+    background-image: url(../img/fondoinicio.jpg);
     height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@ width: 100vw;
 }
 
 .invitado-foto{
-    background-image: url(/img/peru.jpg);
+    background-image: url(../img/peru.jpg);
     background-size: cover;
     height: 400px;
     width: 100vw;
