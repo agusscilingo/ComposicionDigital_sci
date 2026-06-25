@@ -1,77 +1,116 @@
-.tickets-main{
-    padding: 4rem 5%;
+
+.tickets-main {
     text-align: center;
+    background-color: white;
 }
 
-.ticket-titulo{
-    font-family: 'Tenor Sans';
+.ticket-titulo {
+    font-family: "textos";
     color: #a01c4c;
     font-size: 1.8rem;
     margin-bottom: 4rem;   
+    font-weight: 500;
 }
 
-.tickets-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
-    width: 100%;
-}
-
-.ticket-card{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+.ticket-card {
+    border: none !important; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
     max-width: 350px;
-    min-width: 280px;
-    background-color: white;
-    padding-bottom: 20px;
-}
-
-.ticket-card img{
     width: 100%;
-    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
 }
 
-.precio{
+.ticket-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top; 
+}
+
+
+.precio {
     display: block;
-    font-family: "Inter";
+    font-family: "titulos";
     font-size: 1.8rem;
     color: #a01c4c;
     font-weight: 800;
     margin-bottom: 0.5rem;
 }
 
-.dias{
-    font-family: "Tenor Sans";
+.dias {
+    font-family: "textos";
     font-style: italic;
     color: grey;
-    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    min-height: 48px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.descripcion{
-    font-family: "Tenor Sans";
+.descripcion {
+    font-family: "textos";
     font-size: 1rem;
     line-height: 1.4;
-    height: 60px;
+    color: #4a4a4a;
     margin-bottom: 2rem;
+    min-height: 60px; 
 }
 
-.boton-comprar{
-    background-color: #a01c4c;
-    color: white;
-    border: none;
+.boton-comprar {
+    background-color: #a01c4c !important;
+    color: white !important;
     padding: 1rem;
-    font-family: "Inter";
+    font-family: "titulos";
     font-weight: 800;
-    font-size: 1.2rem;
-    cursor: pointer;
+    font-size: 1.1rem;
     width: 100%;
-    transition: 0.3s;
-    margin-top: auto;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 0.3s ease;
+    margin-top: auto; 
 }
 
 .boton-comprar:hover {
-    background-color: #8a0053;
-    transform: translateY(-3px);
+    background-color: #8a0053 !important;
+}
+
+.video-banner-ancho {
+    position: relative;
+    width: 100%;
+    height: 600px; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    margin-top: 4rem;
+}
+
+.video-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    z-index: 1;
+    display: block;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .video-banner-ancho {
+        height: 300px;
+    }
+    .contenido-banner h3 {
+        font-size: 1.6rem;
+    }
 }
