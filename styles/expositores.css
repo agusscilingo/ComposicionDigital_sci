@@ -1,25 +1,47 @@
-.titulo{
-    background-color: #E9DFF0;
-    display: flex;
+.titulo {
+    background-color: #E9DFF0; 
 }
 
-.titulo-contenido{
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
-    text-align: left;
+.titulo h1 {
+    font-family: "titulos" !important; 
+    font-size: 5rem;
+    font-weight: 800;
+    color: #a01c4c !important;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-.titulo-contenido h1{
-font-family: "titulos";
-font-size: 5rem;
-font-weight: 800;
-color: #a01c4c;
-margin: 0;
-text-transform: uppercase;
+.titulo p {
+    font-family: "textos" !important;
+    font-size: 1.1rem;
+    color: #a01c4c !important; 
+    font-weight: 500;
+    margin-top: 12px;
+    max-width: 800px;
+    opacity: 0.9; 
 }
 
-.titulo-contenido p{
+
+@media (max-width: 768px) {
+    .titulo h1 {
+        font-size: 3rem;
+    }
+    .titulo p {
+        font-size: 1rem;
+    }
+}
+
+.titulo-contenido h1 {
+    font-family: "titulos";
+    font-size: 5rem;
+    font-weight: 800;
+    color: #a01c4c;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.titulo-contenido p {
     font-family: "textos";
     font-size: 1rem;
     color: black;
@@ -27,50 +49,69 @@ text-transform: uppercase;
     max-width: 800px;
 }
 
-.grilla-expositores{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 15px;
-    padding: 40px 5%;
-    max-width: 1200px;
-    margin: 0 auto;
+#buscadorExpositores {
+    font-family: "textos";
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border: 2px solid #DEADE0;
+    border-radius: 30px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(160, 28, 76, 0.03);
 }
 
-.expositor-card{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
-
-.expositor-card:hover {
-animation: fadeIn; 
-    animation-duration: 1s;
-transform: scale(1.02);
-    cursor: pointer;
+#buscadorExpositores:focus {
+    border-color: #a01c4c; 
+    box-shadow: 0 4px 12px rgba(160, 28, 76, 0.15);
 }
 
 .expositor-card {
+    padding: 25px;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px; /* Bordes suaves */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-item:nth-child(odd) .expositor-card {
     background-color: #DEADE0; 
 }
 
-.expositor-card:nth-child(even) {
+.card-item:nth-child(even) .expositor-card {
     background-color: #EDDCF1; 
 }
 
-.expositor-card h3{
+.expositor-card:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    cursor: pointer;
+}
+
+.expositor-card h3 {
     font-family: "titulos";
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 800;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     color: #a01c4c;
 }
 
-.expositor-card p{
+.expositor-card p {
     font-family: "textos";
-    font-size: 1ren;
-    margin: 3px 0;
-    color: black;
+    font-size: 1rem;
+    margin: 2px 0;
+    color: #2b2b2b;
+}
+
+.stand {
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .titulo-contenido h1 {
+        font-size: 3rem;
+    }
 }
