@@ -1,0 +1,269 @@
+.titulo{
+    background-color: #E9DFF0;
+    display: flex;
+}
+
+
+.titulo-contenido{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+}
+
+.titulo-contenido h1{
+font-family: "titulos";
+font-size: 5rem;
+font-weight: 800;
+color: #a01c4c;
+margin: 0;
+text-transform: uppercase;
+}
+
+.titulo-contenido p{
+    font-family: "textos";
+    font-size: 1rem;
+    color: black;
+    margin-top: 10px;
+    max-width: 800px;
+}
+
+.compra-main {
+    background-color: white;
+    min-height: 80vh;
+}
+
+.compra-titulo {
+    font-family: "titulos";
+    color: #a01c4c;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.compra-subtitulo {
+    font-family: "textos";
+    color: black;
+    font-size: 1.1rem;
+}
+
+.form-compra-card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    background-color: white;
+}
+
+.form-seccion-titulo {
+    font-family: "titulos";
+    color: #a01c4c;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.font-textos {
+    font-family: "textos";
+    font-weight: 500;
+    color: black;
+}
+
+.input-personalizado {
+    font-family: "textos";
+    padding: 0.6rem 1rem;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.input-personalizado:focus {
+    border-color: #a01c4c;
+    box-shadow: 0 0 0 0.25rem rgba(160, 28, 76, 0.15);
+}
+
+/* Botón de envío */
+.boton-finalizar-compra {
+    background-color: #a01c4c;
+    color: white;
+    padding: 1rem;
+    font-family: "titulos";
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton-finalizar-compra:hover {
+    background-color: #8a0053;
+    transform: translateY(-2px);
+}
+
+.pago-main {
+    background-color: white;
+    min-height: 75vh;
+}
+
+.pago-titulo {
+    font-family: "titulos";
+    color: #a01c4c;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.pago-subtitulo {
+    font-family: "textos";
+    color: black;
+    font-size: 1.1rem;
+}
+
+/* Estilos de Tarjetas */
+.pago-card, .resumen-card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    background-color: white;
+}
+
+.pago-seccion-titulo {
+    font-family: "titulos";
+    color: #a01c4c;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #E9DFF0;
+    padding-bottom: 10px;
+}
+
+.font-textos {
+    font-family: "textos";
+    color: black;
+}
+
+.opcion-pago {
+    padding: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.opcion-pago:hover {
+    background-color: #faf5fc;
+    border-color: #a01c4c;
+}
+
+.form-check-input:checked {
+    background-color: #a01c4c;
+    border-color: #a01c4c ;
+}
+
+.total-label {
+    font-family: "titulos";
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: black;
+}
+
+.total-monto {
+    font-family: "titulos";
+    font-size: 2rem;
+    font-weight: 900;
+    color: #a01c4c;
+}
+
+.boton-pagar {
+    background-color: #a01c4c ;
+    color: white;
+    padding: 1rem;
+    font-family: "titulos";
+    font-weight: 800;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton-pagar:hover {
+    background-color: #8a0053;
+    transform: translateY(-2px);
+}
+
+
+
+.gracias-card {
+    border: none;
+    border-radius: 12px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    background-color: white;
+}
+
+.icono-exito {
+    width: 80px;
+    height: 80px;
+    background-color: #fcecf2; 
+    color: #a01c4c; 
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.tilde {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.gracias-titulo {
+    font-family: "titulos";
+    color: #a01c4c;
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.gracias-texto {
+    font-family: "textos";
+    color: black;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+
+.detalle-ficticio {
+    background-color: #E9DFF0;
+    border-left: 4px solid #a01c4c; 
+    border-radius: 4px;
+}
+
+.font-textos {
+    font-family: "textos";
+    color: black;
+    font-size: 0.95rem;
+}
+
+.boton-volver-inicio {
+    background-color: #a01c4c;
+    color: white;
+    padding: 1rem;
+    font-family: "titulos";
+    font-weight: 800;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton-volver-inicio:hover {
+    background-color: #8a0053;
+    transform: translateY(-2px);
+}
