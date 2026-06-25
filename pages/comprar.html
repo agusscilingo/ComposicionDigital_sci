@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/tickes.css">
+    <title>Pagar</title>
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light mi-nav-personalizada">
+  <div class="container-fluid">
+    
+    <a class="navbar-brand" href="../index.html">
+      <img src="../img/logo.png" alt="Logo" height="40">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="./entradas.html">Entradas</a></li>
+        <li class="nav-item"><a class="nav-link" href="./expositores.html">Expositores</a></li>
+        <li class="nav-item"><a class="nav-link" href="./firmas.html">Firmas</a></li>
+        <li class="nav-item"><a class="nav-link" href="./preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
+        <li class="nav-item"><a class="nav-link" href="./visitanos.html">Visitanos</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<main class="pago-main py-5">
+    <div class="container">
+        
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 col-md-10 text-center">
+                <h2 class="pago-titulo animate__animated animate__fadeInDown">Finalizar el Pago</h2>
+                <p class="pago-subtitulo">Seleccioná tu método preferido para completar la transacción de forma segura.</p>
+            </div>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card pago-card h-100 animate__animated animate__fadeInLeft">
+                    <div class="card-body p-4">
+                        <h4 class="pago-seccion-titulo mb-4">Método de Pago</h4>
+                        
+                        <form id="formMetodoPago">
+                            <div class="form-check opcion-pago mb-3">
+                                <input class="form-check-input" type="radio" name="metodoPago" id="mercadoPago" checked>
+                                <label class="form-check-label font-textos ms-2" for="mercadoPago">
+                                    🔵 Mercado Pago / Cuenta Digital
+                                </label>
+                            </div>
+
+                            <div class="form-check opcion-pago mb-3">
+                                <input class="form-check-input" type="radio" name="metodoPago" id="debito">
+                                <label class="form-check-label font-textos ms-2" for="debito">
+                                    💳 Tarjeta de Débito
+                                </label>
+                            </div>
+
+                            <div class="form-check opcion-pago mb-3">
+                                <input class="form-check-input" type="radio" name="metodoPago" id="credito">
+                                <label class="form-check-label font-textos ms-2" for="credito">
+                                    💳 Tarjeta de Crédito
+                                </label>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card resumen-card h-100 animate__animated animate__fadeInRight">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <h4 class="pago-seccion-titulo mb-4">Resumen de Compra</h4>
+                        
+                        <div class="d-flex justify-content-between mb-2 font-textos">
+                            <span>Entradas seleccionadas:</span>
+                            <span class="fw-bold">$12.000</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2 font-textos text-muted small">
+                            <span>Costo de servicio (10%):</span>
+                            <span>$1.200</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-3 font-textos text-muted small">
+                            <span>Impuestos incluidos:</span>
+                            <span>$0.00</span>
+                        </div>
+                        
+                        <hr class="text-muted">
+                        
+                        <div class="d-flex justify-content-between align-items-center my-3">
+                            <span class="total-label">TOTAL:</span>
+                            <span class="total-monto">$13.200</span>
+                        </div>
+                        
+                            <a href="./comprado.html" class="btn boton-finalizar-compra w-100 mt-2">CONFIRMAR COMPRA</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+     <!-- FOOTER -->
+
+   <footer class="footer py-5">
+    <div class="container">
+        <div class="row justify-content-center text-center gy-4">
+            
+            <div class="col-12">
+                <div class="footerlogo">
+                    <img src="../img/logo.png" alt="Logo Feria del Libro">
+                </div>
+            </div>
+            
+            <nav class="col-12">
+                <div class="navfooter justify-content-center">
+                    <a class="afooter" href="../index.html">Inicio</a>
+                    <a class="afooter" href="./entradas.html">Entradas</a>
+                    <a class="afooter" href="./expositores.html">Expositores</a>
+                    <a class="afooter" href="./firmas.html">Firmas</a>
+                    <a class="afooter" href="./preguntasfrecuentes.html">Preguntas Frecuentes</a>
+                    <a class="afooter" href="./visitanos.html">Visitanos</a>
+                </div>
+            </nav>
+            
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
