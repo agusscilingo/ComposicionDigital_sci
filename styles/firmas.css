@@ -11,12 +11,12 @@
 }
 
 .titulo-contenido h1{
-font-family: "titulos";
-font-size: 5rem;
-font-weight: 800;
-color: #a01c4c;
-margin: 0;
-text-transform: uppercase;
+    font-family: "titulos";
+    font-size: 5rem;
+    font-weight: 800;
+    color: #a01c4c;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 .titulo-contenido p{
@@ -27,37 +27,37 @@ text-transform: uppercase;
     max-width: 800px;
 }
 
-.firmas-seccion{
-    max-width: 1000px;
-    margin: 4rem auto;
-    padding: 0 5%;
-}
-
 .informacion{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 40px;
-    padding: 20px;
+    flex-direction: column;
+    background-color: white
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.firmaimg{
     width: 100%;
+    height: 250px;
+    overflow: hidden;
 }
 
 .firmaimg img{
-    width: 180px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .firma-fecha{
-    min-width: 150px;
+    padding: 15px 20px 5px 20px;
 }
  
 .firma-fecha .dia{
-font-family: "textos";
-color: #a01c4c;
-font-size: 1.2rem;
-margin: 0;
+    font-family: "textos";
+    color: #a01c4c;
+    font-size: 1.2rem;
+    margin: 0;
 }
 
 .firma-fecha .numerodia{
@@ -69,6 +69,7 @@ margin: 0;
 }
 
 .info-firma{
+    padding: 0 20px 20px 20px;
     flex-grow: 1;
 }
 
@@ -86,4 +87,13 @@ margin: 0;
     font-weight: 800;
     color: black;
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    .titulo-contenido h1 {
+        font-size: 3rem;
+    }
+    .firmaimg {
+        height: 200px;
+    }
 }
